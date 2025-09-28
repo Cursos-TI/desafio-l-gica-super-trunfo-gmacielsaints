@@ -143,6 +143,7 @@ printf("***************************************\n");
   if (escolha2 == escolha1)
   {
     printf("Atributo ja escolhido, escolha outro atributo!\n");
+    return (0);
   } else {
     switch (escolha2) {
       case 1:
